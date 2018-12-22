@@ -26,4 +26,17 @@
         adj[vert1][vert2] = weight;
     }
 
+    public void addEdge(int vert1, int vert2) {
+    	adj[vert1][vert2] = 0;
+    }
+
+     public int createSpanningTree(){
+
+        return 100;
+    }
+
+    public void topologicalSort() {
+    	return;
+    }
+
  }
